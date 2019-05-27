@@ -6,6 +6,8 @@ class App < Sinatra::Base
     erb :newteam
   end
   
-post '/food' do  
+post '/team' do  
+  erb :team
+end
 
 end
